@@ -18,8 +18,9 @@ The applications are comprised of the following:
 
 
 ## Instructions:
+Please follow the below instructions to create/deploy:
 
-In order to use these applications you will have first create a MYSQL Database in the following structure: 
+1. Create a MYSQL Database in the following structure: 
 
 Table: Products = {
     item_id:
@@ -29,7 +30,7 @@ Table: Products = {
     stock_quantity
 }
 
-You will then have to create a personal 'Keys.js' file this will act as your lock for your MYSQL Server. It should be structured as follows:
+2. Create a personal 'Keys.js' file this will act as your lock for your MYSQL Server. It should be structured as follows:
 
 module.exports = {
     SQLPassword: '**YOUR PASSWORD HERE**'
