@@ -70,10 +70,10 @@ BamazonCustomer allows the user to view current products available in the bamazo
 
 #### BamazonManager
 The BamazonManager application has 4 main compontents/capabilities that the user will be prompted upon start of the application:
-    1. View Products for Sale
-    2. View Low Inventory
-    3. Add to Inventory
-    4. Add New Product
+1. View Products for Sale
+2. View Low Inventory
+3. Add to Inventory
+4. Add New Product
 
 
 - View Products for Sale
