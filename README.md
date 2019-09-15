@@ -39,9 +39,11 @@ Table: Products = {
 
 3. Create a personal 'Keys.js' file this will act as your lock for your MYSQL Server. It should be structured as follows:
 
+````
 module.exports = {
     SQLPassword: '**YOUR PASSWORD HERE**'
 }
+````
 
 You can then use this file to expand on any further functionality requiring keys/passwords. If pushing into Github, please remember to indlude a .gitignore file to remove this file. 
 
