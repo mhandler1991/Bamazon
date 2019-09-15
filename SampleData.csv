@@ -1,0 +1,12 @@
+item_id,product_name,department_name,price,stock_quantity
+1,Computer,Electronics,1000,50
+2,Phone,Electronics,500,50
+3,Cups,Home,10,100
+4,Shirts,Clothing,25,250
+5,Shoes,Clothing,75,100
+6,Gum,Food,1,5000
+7,Blanket,Home,20,20
+8,Keyboard,Electronics,10,60
+9,Coffee,Food,15,10
+10,Super_Computer,Electronics,10000,2
+11,Water,Food,1,50
