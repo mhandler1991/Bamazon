@@ -11,10 +11,15 @@ These two Node.Js applications allow users to interact with an 'Amazon' like mar
 
 #### Application(s) Organization:
 The applications are comprised of the following:
+1. bamazonCustomer
+2. bamazonManager
+3. Keys
+4. MYSQL
+
+#### Files Included:
 1. bamazonCustomer.js
 2. bamazonManager.js
-3. Keys.js
-4. MYSQL
+3. SampleData.csv
 
 
 ## Instructions:
@@ -30,7 +35,9 @@ Table: Products = {
     stock_quantity
 }
 
-2. Create a personal 'Keys.js' file this will act as your lock for your MYSQL Server. It should be structured as follows:
+2. Upload data from the SampleData.csv file into your MYSQL or Add your own!
+
+3. Create a personal 'Keys.js' file this will act as your lock for your MYSQL Server. It should be structured as follows:
 
 module.exports = {
     SQLPassword: '**YOUR PASSWORD HERE**'
