@@ -27,6 +27,7 @@ Please follow the below instructions to create/deploy:
 
 1. Create a MYSQL Database in the following structure: 
 
+````
 Table: Products = {
     item_id:
     product_name:
@@ -34,6 +35,7 @@ Table: Products = {
     price:
     stock_quantity
 }
+````
 
 2. Upload data from the SampleData.csv file into your MYSQL or Add your own!
 
