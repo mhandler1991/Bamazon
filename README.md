@@ -71,19 +71,14 @@ BamazonCustomer allows the user to view current products available in the bamazo
 #### BamazonManager
 The BamazonManager application has 4 main compontents/capabilities that the user will be prompted upon start of the application:
 1. View Products for Sale
+    Selecting this option will show a 'menu' of available products within the MYSQL Database. Each 'menu' line item will show the product number, product name, & price.
+
 2. View Low Inventory
+    Similar to 'View Products for Sale' selecting this option will show a 'menu' of available products within the MYSQL Database **WITH** inventory below 5.
+
 3. Add to Inventory
+    Selecting this option will prompt the user to first decide which product they would like to edit. After Selecting this product the user will be input the new quantity of that product. Please note that this will overwrite current values NOT add values.
+
 4. Add New Product
+    Selecting this will allow the user to add a new product to the MYSQL database. The user will first be prompted to input what product they would like to add (Name). Then the department that product is under, the per item price of the product, then finally the available quantity of the product. 
 
-
-- View Products for Sale
-Selecting this option will show a 'menu' of available products within the MYSQL Database. Each 'menu' line item will show the product number, product name, & price.
-
-- View Low Inventory
-Similar to 'View Products for Sale' selecting this option will show a 'menu' of available products within the MYSQL Database **WITH** inventory below 5.
-
-- Add to Inventory
-Selecting this option will prompt the user to first decide which product they would like to edit. After Selecting this product the user will be input the new quantity of that product. Please note that this will overwrite current values NOT add values.
-
-- Add New Product
-Selecting this will allow the user to add a new product to the MYSQL database. The user will first be prompted to input what product they would like to add (Name). Then the department that product is under, the per item price of the product, then finally the available quantity of the product. 
