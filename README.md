@@ -17,7 +17,7 @@ The applications are comprised of the following:
 4. MYSQL
 
 
-### Items of Note:
+## Instructions:
 
 In order to use these applications you will have first create a MYSQL Database in the following structure: 
 
@@ -36,6 +36,8 @@ module.exports = {
 }
 
 You can then use this file to expand on any further functionality requiring keys/passwords. If pushing into Github, please remember to indlude a .gitignore file to remove this file. 
+
+## Items of Note:
 
 **A Deployed Version can be found https://github.com/mhandler1991/Bamazon**
 
